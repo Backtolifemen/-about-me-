@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros dos Sonhos</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #87CEFA;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            margin: 10px 0;
+        }
+
+        nav a {
+            color: #00BFFF;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .hero {
+            background: url('https://example.com/sua-imagem-de-fundo.jpg') no-repeat center center/cover; /* Substitua pela URL da imagem de fundo */
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background: #e8491d;
+            color: #DCDCDC;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #DCDCDC;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Carros dos Sonhos</h1>
+        <nav>
+            <a href="#modelos">Modelos</a>
+            <a href="#promocoes">Promoções</a>
+            <a href="#depoimentos">Depoimentos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Aventura Começa Aqui!</h1>
+        <a href="#modelos" class="btn">Explore Nossos Modelos</a>
+    </section>
+
+    <div class="container">
+        <section id="modelos">
+            <h2>Modelos em Destaque</h2>
+            <div class="card">
+                <h3>Nissan Skyline</h3>
+                <img src="https://example.com/imagem-skyline.jpg" alt="Nissan Skyline"> <!-- Substitua pela URL da imagem do Skyline -->
+                <p>Um clássico com desempenho incrível. Preço: R$ 50.000</p>
+            </div>
+            <div class="card">
+                <h3>Chevrolet Camaro</h3>
+                <img src="https://example.com/imagem-camaro.jpg" alt="Chevrolet Camaro"> <!-- Substitua pela URL da imagem do Camaro -->
+                <p>Poderoso e esportivo, perfeito para quem busca emoção. Preço: R$ 60.000</p>
+            </div>
+            <div class="card">
+                <h3>Koenigsegg</h3>
+                <img src="https://example.com/imagem-koenigsegg.jpg" alt="Koenigsegg"> <!-- Substitua pela URL da imagem do Koenigsegg -->
+                <p>Supercarro de alto desempenho com design impressionante. Preço: R$ 70.000</p>
+            </div>
+            <div class="card">
+                <h3>Toyota Supra MK4</h3>
+                <img src="https://example.com/imagem-supra.jpg" alt="Toyota Supra MK4"> <!-- Substitua pela URL da imagem do Supra MK4 -->
+                <p>Ícone dos esportivos, combina beleza e potência. Preço: R$ 68.000</p>
+            </div>
+        </section>
+
+        <section id="promocoes">
+            <h2>Ofertas Especiais</h2>
+            <p>Confira nossas promoções atuais e aproveite!</p>
+            <a href="#" class="btn">Veja Todas as Ofertas</a>
+        </section>
+
+        <section id="depoimentos">
+            <h2>O que nossos clientes dizem</h2>
+            <p>"A experiência de compra foi incrível! - Rodrigo K."</p>
+        </section>
+
+        <section id="contato">
+            <h2>Fique por dentro das nossas novidades!</h2>
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="E-mail" required>
+                <button type="submit" class="btn">Inscrever-se</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Carros dos Sonhos. Todos os direitos reservados.</p>
+        <p>Política de Privacidade | Termos de Uso</p>
+        <p>Rodrigo Koshiyama</p>
+    </footer>
+
+</body>
+
+</html>
